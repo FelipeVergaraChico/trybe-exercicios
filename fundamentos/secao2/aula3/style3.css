@@ -1,0 +1,14 @@
+h1,p{
+    align-items: center ;
+    width: 80%;
+}
+ol:hover{
+background-color: greenyellow;
+}
+ol:active{
+    font-family: fantasy;
+}
+
+ol, ul{
+    list-style: none;
+}
