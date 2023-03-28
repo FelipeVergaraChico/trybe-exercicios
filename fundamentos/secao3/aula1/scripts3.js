@@ -30,3 +30,45 @@ if (weekDay === 'segunda feira' || 'terça-feira' || 'quarta-feira' || 'quinta-f
 } else {
     console.log("finalmente, descanso merecido")
 }
+
+let trafficLight = ""
+
+switch (trafficLight) {
+    case "Vermelho":
+        console.log("pare");
+        break;
+
+    case "Amarelo":
+        console.log("Atenção");
+        break;
+
+        case "Verde":
+            console.log("siga");
+            break;
+
+            default:
+                console.log("valor não identificado");
+}
+
+let candidato = 'aprovada'
+
+switch (candidato) {
+    case "aprovada":
+    console.log('parabens,voce está no grupo');
+    
+    break;
+    
+    case "lista":
+    console.log('voce está na nossa lista de espera');
+
+    break;
+
+    case 'reporvada':
+    console.log('infelizmente voce reprovou');
+
+    break;
+
+    default:
+        console.log('informação incorreta')
+
+}
