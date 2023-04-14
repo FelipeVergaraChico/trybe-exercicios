@@ -1,0 +1,23 @@
+div:hover{
+    border: solid black;
+}
+
+#d1{
+    background-color: green;
+}
+#d2{
+    background-color: aqua;
+}
+#d3{
+    background-color: blue;
+    height: 500px;
+}
+#d4{
+    background-color: purple;
+}
+#d5{
+    background-color: yellow;
+}
+h3{
+    font-style: italic;
+}
